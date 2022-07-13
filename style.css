@@ -27,7 +27,7 @@ body{
 .digitalClock h1{
     display:  inline-block;
     margin: 0 10px;
-    font-weight:  bold;
+    font-weight: bold;
     font-size: 5rem;
 }
 
