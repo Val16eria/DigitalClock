@@ -32,7 +32,11 @@ body{
 }
 
 @media(max-width:768px) {
-    #bar1, #bar2, #bar3, #bar4{
+    #bar1, #bar2{
+        display: none;
+    }
+
+    #bar3, #bar4{
         display: none;
     }
 
