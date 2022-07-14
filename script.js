@@ -7,7 +7,7 @@ function calculateTime(){
     var minute = date.getMinutes();
     var sec = date.getSeconds();
     var ampm = hour >= 12 ? 'ВЕЧЕР' : 'УТРО';
-    var dayNames = ["ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ", "ВС"];
+    var dayNames = ["ВС", "ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ"];
 
     hour = hour % 12;
     hour = hour ? 12 : '12';
